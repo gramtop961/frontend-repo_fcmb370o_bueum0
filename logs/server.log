@@ -3,7 +3,55 @@
 > vite
 
 
-  VITE v5.4.20  ready in 200 ms
+  VITE v5.4.20  ready in 202 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.19.45:3000/
+3:32:56 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:17:107: ERROR: Expected identifier after "http:" in namespaced JSX name
+3:32:57 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:17:107: ERROR: Expected identifier after "http:" in namespaced JSX name
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:17:107
+  
+  Expected identifier after "http:" in namespaced JSX name
+  15 |          <div className="absolute top-1/2 -right-20 h-[30rem] w-[30rem] rounded-full bg-indigo-600/10 blur-3xl" />
+  16 |          <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.06),transparent_40%),radial-gradient(circle_at_80%_0%,rgba(255,255,255,0.06),transparent_30%)]" />
+  17 |          <div className="absolute inset-0 opacity-[0.03] bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\"><path fill=\"white\" fill-opacity=\"0.8\" d=\"M0 31h2v1H0zm30 0h2v1h-2zM0 0h1v2H0zm31 0h1v2h-1z\"/></svg>')]" />
+     |                                                                                                             ^
+  18 |        </div>
+  19 |  
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+3:33:33 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:17:107: ERROR: Expected identifier after "http:" in namespaced JSX name
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:17:107
+  
+  Expected identifier after "http:" in namespaced JSX name
+  15 |          <div className="absolute top-1/2 -right-20 h-[30rem] w-[30rem] rounded-full bg-indigo-600/10 blur-3xl" />
+  16 |          <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.06),transparent_40%),radial-gradient(circle_at_80%_0%,rgba(255,255,255,0.06),transparent_30%)]" />
+  17 |          <div className="absolute inset-0 opacity-[0.03] bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\"><path fill=\"white\" fill-opacity=\"0.8\" d=\"M0 31h2v1H0zm30 0h2v1h-2zM0 0h1v2H0zm31 0h1v2h-1z\"/></svg>')]" />
+     |                                                                                                             ^
+  18 |        </div>
+  19 |  
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
