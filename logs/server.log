@@ -3,13 +3,13 @@
 > vite
 
 
-  VITE v5.4.20  ready in 202 ms
+  VITE v5.4.20  ready in 232 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.19.45:3000/
-3:32:56 AM [vite] Pre-transform error: Transform failed with 1 error:
+3:48:45 AM [vite] Pre-transform error: Transform failed with 1 error:
 /home/workspace/src/App.jsx:17:107: ERROR: Expected identifier after "http:" in namespaced JSX name
-3:32:57 AM [vite] Internal server error: Transform failed with 1 error:
+3:48:45 AM [vite] Internal server error: Transform failed with 1 error:
 /home/workspace/src/App.jsx:17:107: ERROR: Expected identifier after "http:" in namespaced JSX name
   Plugin: vite:esbuild
   File: /home/workspace/src/App.jsx:17:107
@@ -32,7 +32,7 @@
       at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
       at Readable.push (node:internal/streams/readable:390:5)
       at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
-3:33:33 AM [vite] Internal server error: Transform failed with 1 error:
+3:48:50 AM [vite] Internal server error: Transform failed with 1 error:
 /home/workspace/src/App.jsx:17:107: ERROR: Expected identifier after "http:" in namespaced JSX name
   Plugin: vite:esbuild
   File: /home/workspace/src/App.jsx:17:107
